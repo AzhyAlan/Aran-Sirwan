@@ -1089,7 +1089,9 @@ span {
     .contacts h2 {
         font-size: 30px;
     }
-
+    .footer-sub {
+        font-size: 9px;
+    }
 }
 
 @media (max-width: 400px) {
