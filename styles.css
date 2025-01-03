@@ -1092,6 +1092,17 @@ span {
     .footer-sub {
         font-size: 9px;
     }
+
+    .logo {
+        padding-left: 6px;
+    }
+    .home-content p{
+        font-size: 12px;
+    }
+
+    .service-box {
+        min-height: 200px;
+    }
 }
 
 @media (max-width: 400px) {
