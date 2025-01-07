@@ -632,13 +632,30 @@ span {
 	height: 1080px;
 }
 .video-container {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	width: 100%;
-	max-width: 100%;
-	margin: auto;
-	overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px; /* Space between iframes */
+    padding: 20px 200px;
+}
+.video-container iframe {
+	max-width: 100%; /* Ensure iframes don't exceed container width */
+    max-height: 800px; /* Adjust height proportionally */
+    aspect-ratio: 16 / 9; /* Maintain video aspect ratio */
+}
+@media (max-width: 950px) {
+    .video-container {
+        padding: 20px 50px; /* Reduce padding for tablets and medium screens */
+    }
+}
+@media (max-width: 480px) {
+    .video-container {
+        padding: 10px; /* Minimal padding for small screens */
+    }
+
+    .video-container iframe {
+        max-height: 500px; /* Adjust max height for smaller screens */
+    }
 }
 .fullscreen-btn {
 	padding: 8px 12px;
