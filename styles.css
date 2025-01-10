@@ -968,10 +968,12 @@ span {
 	}
 	.home {
 		margin-bottom: 0;
+		margin-top: 60px;
 	}
 	.services {
 		margin-top: 0;
 	}
+	
 }
 @media (max-width: 400px) {
 	.skill-bar-container {
