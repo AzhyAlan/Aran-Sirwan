@@ -912,6 +912,9 @@ span {
 	.home-img img {
 		height: 540px;
 	}
+	.btn {
+		font-size: 3rem;
+	}
 }
 @media (max-width: 530px) {
 	html {
