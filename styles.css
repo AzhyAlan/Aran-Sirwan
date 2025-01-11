@@ -627,10 +627,7 @@ span {
 	align-items: center;
 	gap: 20px;
 }
-.nrt-image {
-	width: 1920px;
-	height: 1080px;
-}
+
 .video-container {
     display: flex;
     flex-direction: column;
